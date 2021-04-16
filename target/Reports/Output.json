@@ -1,0 +1,509 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24360124400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in Adactin Hotel login page",
+            "match": {
+              "location": "AdactinHotel.user_is_in_Adactin_Hotel_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3771571600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "AdactinHotel.user_enter_valid_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sheelamathiyazhagan",
+                  "poonguzhali"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4295787000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click login button",
+            "match": {
+              "location": "AdactinHotel.user_click_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-16T08:35:34.358Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2543800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 166000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 164100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 22606327400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To validate login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-login-functionality;to-validate-login-functionality-with-valid-username-and-valid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3447215800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSceanario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2510600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 223200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 199100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4320939500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User select \"London\",\"Hotel Creek\",\"Standard\",\"1\",\"2\",\"2\"and Click SearchButton",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"London\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 54
+                }
+              ],
+              "location": "AdactinHotel.user_select_and_Click_SearchButton(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2062955000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User select the hotel and click continue",
+            "match": {
+              "location": "AdactinHotel.user_select_the_hotel_and_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13492213600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters \"pranav\",\"raj\",\"chennai\",\"2345673425432723\",\"VISA\",\"Feb\",\"2022\",\"098\"and click book now",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pranav\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"raj\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"2345673425432723\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"Feb\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"098\"",
+                  "offset": 76
+                }
+              ],
+              "location": "AdactinHotel.user_enters_and_click_book_now(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4012369900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be in confirmation page",
+            "match": {
+              "location": "AdactinHotel.user_should_be_in_confirmation_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17284336200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in Adactin Hotel login page",
+            "match": {
+              "location": "AdactinHotel.user_is_in_Adactin_Hotel_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7579347200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter valid username and password",
+            "match": {
+              "location": "AdactinHotel.user_enter_valid_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sheelamathiyazhagan",
+                  "poonguzhali"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4581508300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click login button",
+            "match": {
+              "location": "AdactinHotel.user_click_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-16T08:36:57.429Z",
+        "before": [
+          {
+            "result": {
+              "duration": 241100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 143800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 147600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 10532484300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To validate login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-login-functionality;to-validate-login-functionality-with-valid-username-and-valid-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 11581848800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSceanario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 765000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 627100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 632100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3847031300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User select \"NewYork\",\"Hotel Hervey\",\"Double\",\"1\",\"2\",\"2\"and Click SearchButton",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NewYork\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 54
+                }
+              ],
+              "location": "AdactinHotel.user_select_and_Click_SearchButton(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2439061000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User select the hotel and click continue",
+            "match": {
+              "location": "AdactinHotel.user_select_the_hotel_and_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13691305200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters \"Sheela\",\"Mathiyazhagan\",\"Madurai\",\"5678902879065432\",\"AmericanExpress\",\"May\",\"2022\",\"065\"and click book now",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sheela\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Mathiyazhagan\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Madurai\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"5678902879065432\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"AmericanExpress\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"065\"",
+                  "offset": 97
+                }
+              ],
+              "location": "AdactinHotel.user_enters_and_click_book_now(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9203999900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be in confirmation page",
+            "match": {
+              "location": "AdactinHotel.user_should_be_in_confirmation_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate login functionality",
+    "description": "",
+    "id": "to-validate-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/AdactinHotel.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="163.607944">
+<testcase classname="To validate login functionality" name="To validate login functionality with valid username and valid password" time="82.825333">
+<system-out><![CDATA[Given User is in Adactin Hotel login page...................................passed
+When User enter valid username and password.................................passed
+And User click login button.................................................passed
+When User select "London","Hotel Creek","Standard","1","2","2"and Click SearchButton.passed
+And User select the hotel and click continue................................passed
+And User enters "pranav","raj","chennai","2345673425432723","VISA","Feb","2022","098"and click book now.passed
+Then User should be in confirmation page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate login functionality" name="To validate login functionality with valid username and valid password 2" time="80.782611">
+<system-out><![CDATA[Given User is in Adactin Hotel login page...................................passed
+When User enter valid username and password.................................passed
+And User click login button.................................................passed
+When User select "NewYork","Hotel Hervey","Double","1","2","2"and Click SearchButton.passed
+And User select the hotel and click continue................................passed
+And User enters "Sheela","Mathiyazhagan","Madurai","5678902879065432","AmericanExpress","May","2022","065"and click book now.passed
+Then User should be in confirmation page....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
