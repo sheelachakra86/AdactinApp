@@ -46,7 +46,7 @@ public class LibGlobal   {
 	driver.manage().deleteAllCookies();
 
 	}
-	public static void closeBrowser() {
+	public static void closeBrowser()  {
 		driver.quit();
 	}
 	public static void toClear(WebElement element) {
